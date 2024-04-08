@@ -1,0 +1,99 @@
+.message {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    /*margin-top: 24px;*/
+    /*margin-left: 70px;*/
+    width: 527px;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: 450px;
+
+
+
+
+
+
+}
+
+.imageAndText {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+
+}
+
+.imageAndText img {
+    margin-left: 15px;
+    width: 48px;
+    height: 48px;
+}
+
+.text {
+    border-radius: 10px;
+    color: #FFFFFF;
+    background: #0066CC;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /*line-height: 19.5px;*/
+    text-align: left;
+    width: 527px;
+    height: 60px;
+}
+
+.text:after {
+
+}
+
+.name {
+    /*text-align: right;*/
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    /*width: 40px;*/
+    /*height: 22px;*/
+    top: 413px;
+    left: 1097px;
+    color: #FFFFFF;
+    /*margin: 5px 15px 0 15px;*/
+     margin-left: 400px;
+}
+
+.messageText {
+    max-width: 500px;
+    width: fit-content;
+    height: fit-content;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    margin: 5px 15px 5px 15px;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: #FFFFFF;
+    /*width: 489px;*/
+    /*height: 20px;*/
+    /*top: 438px;*/
+    /*left: 648px;*/
+}
+
+.time {
+    margin: 5px 10px 0 10px;
+    color: #000000;
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12.19px;
+    text-align: left;
+    width: 26px;
+    height: 12px;
+    /*top: 471px;*/
+    /*left: 1173px;*/
+}
